@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+{% block title %}
+About Us
+{% endblock title %}
+{% block content %}
+<div class="banner-section d-flex justify-content-center align-items-end">
+      <div class="section-overlay"></div>
+
+      <div class="container">
+            <div class="row">
+
+                  <div class="col-lg-7 col-12">
+                        <h1 class="text-white mb-lg-0">About Us</h1>
+                  </div>
+
+                  <div class="col-lg-4 col-12 d-flex justify-content-lg-end align-items-center ms-auto">
+                        <nav aria-label="breadcrumb">
+                              <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+
+                                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                              </ol>
+                        </nav>
+                  </div>
+
+            </div>
+      </div>
+</div>
+
+<div class="section-padding">
+      <div class="container">
+            <div class="row">
+
+                  <div class="col-lg-6 col-12">
+                        <img src="/static/images/cleaning-concept-with-man-showing-business-card.jpg"
+                              class="featured-image img-fluid">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                        <div class="featured-block">
+                              <h2 class="mb-4">Cleaning Service Agency Since 2020</h2>
+                              <p>
+                                    At Cleaning Work, we're passionate about creating clean, healthy, and
+                                    comfortable spaces for our clients. We understand that life is busy, and cleaning
+                                    often takes a backseat. That's why we offer reliable, fast, and efficient cleaning
+                                    services that free you up to focus on what truly matters.
+                              </p>
+                              <a class="custom-btn btn button button--atlas mt-3" href="{% url 'contact' %}">
+                                    <span>Get in touch</span>
+
+                                    <div class="marquee" aria-hidden="true">
+                                          <div class="marquee__inner">
+                                                <span>Get in touch</span>
+                                                <span>Get in touch</span>
+                                                <span>Get in touch</span>
+                                                <span>Get in touch</span>
+                                          </div>
+                                    </div>
+                              </a>
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+</div>
+
+<div class="team-section section-padding section-bg">
+      <div class="container">
+            <div class="row">
+
+                  <div class="col-lg-12 col-12">
+                        <h2 class="mb-4">Meet People</h2>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 col-12 mb-lg-0 mb-md-5">
+                        <img src="/static/images/teams/young-cleaning-man-wearing-casual-clothes.jpg"
+                              class="team-image img-fluid">
+                  </div>
+
+                  <div
+                        class="col-lg-3 col-md-6 col-12 d-flex justify-content-lg-center mt-4 mt-lg-0 mt-md-0 mb-5 mb-lg-0">
+                        <div class="team-info mx-auto mx-lg-0">
+                              <h4 class="mb-2">Artur</h4>
+
+                              <p>
+                                    A seasoned cleaning professional with 8 years of experience, Artur
+                                    brings a wealth of knowledge and a meticulous approach to every job. You can always
+                                    count on him to leave your home sparkling clean.
+                              </p>
+
+                              <div class="border-top mt-3 pt-3">
+                                    <p class="d-flex mb-0">
+                                          <i class="bi-whatsapp me-2"></i>
+
+                                          <a href="tel: 110-220-9800">
+                                                143-223-9944
+                                          </a>
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 col-12">
+                        <img src="/static/images/teams/happy-young-woman-wiping-kitchen-counter-wearing-yellow-gloves.jpg"
+                              class="team-image img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-lg-center mt-4 mt-lg-0 mt-md-0">
+                        <div class="team-info mx-auto mx-lg-0">
+                              <h4 class="mb-2">Marie</h4>
+
+                              <p>
+                                    Marie is known for her friendly smile and positive attitude. She
+                                    takes pride in building relationships with clients and ensuring they feel
+                                    comfortable with our cleaning service.
+                              </p>
+
+                              <div class="border-top mt-3 pt-3">
+                                    <p class="d-flex mb-0">
+                                          <i class="bi-whatsapp me-2"></i>
+
+                                          <a href="tel: 110-220-9800">
+                                                110-225-9876
+                                          </a>
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+</div>
+{% endblock %}
